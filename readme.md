@@ -5,3 +5,9 @@
 4. if running just npm init, hit enter through steps (skip this step if npm init-y entered in step )
 5. look for name of  entry point ('main') file -> this will be the js file we need to create
 6. touch js file that matches name in main in json package
+
+# RESOURCES
+* https://www.w3schools.com/nodejs/ref_fs.asp
+
+# HINTS
+* Don't upload node modules to Github. Touch .gitignore in your directory.
