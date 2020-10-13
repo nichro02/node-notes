@@ -8,6 +8,27 @@
 
 # RESOURCES
 * https://www.w3schools.com/nodejs/ref_fs.asp
+* https://www.w3schools.com/nodejs/nodejs_http.asp
 
 # HINTS
 * Don't upload node modules to Github. Touch .gitignore in your directory.
+* You can ctl + c to quit nodemon
+
+# STEPS TO SET UP EXPRESS APP
+1. mkdir new directory
+2. cd into new directory
+3. Initialize node w/ npm init
+4. Install express with npm i express
+5. Create entry point file, follow steps 6-8
+6. Import express module -> const express = require('express')
+7. Create instance of express app -> const app = express()
+8. Create home route
+9. Run nodemon
+
+
+# EXPRESS ROUTES
+* Home route
+    * const app = express()
+    * app.get('/', (req, res) {
+        res.send('text string')
+    })
