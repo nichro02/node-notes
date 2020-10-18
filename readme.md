@@ -24,11 +24,24 @@
 7. Create instance of express app -> const app = express()
 8. Create home route
 9. Run nodemon
+10. touch .gitignore in directory
+11. Add node_modules to .gitignore -> echo "node_modules" >> .gitignore
 
 
-# EXPRESS ROUTES
-* Home route
-    * const app = express()
+# ROUTES
+* A route is a combination of a URL pattern and HTTP Verb
+
+HTTP Verb | CRUD Mapping | Example
+----------|--------------|--------
+GET       | READ         | Look at LinkedIn profile
+POST      | CREATE       | Post on LinkedIn
+PUT       | UPDATE       | Change LinkedIn bio
+DELETE    | DELETE       | Delete photo from LinkedIn
+ 
+* Home route example
     * app.get('/', (req, res) {
         res.send('text string')
     })
+
+# HINTS
+* route-fun lesson (don't have git repo set up yet), love-it-or-leave-it, and zodiac-controllers are useful resources
